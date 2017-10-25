@@ -5,3 +5,6 @@ all:
 
 clean:
 	rm -f lab3 lab3.o list.o
+
+run: all
+	./lab3

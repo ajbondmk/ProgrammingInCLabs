@@ -10,3 +10,6 @@ clang:
 
 clean:
 	rm -f lab6.o re.o lab6
+
+run: all
+	./lab6

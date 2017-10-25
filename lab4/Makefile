@@ -5,3 +5,6 @@ all:
 
 clean:
 	rm -f lab4.o tree.o lab4
+
+run: all
+	./lab4

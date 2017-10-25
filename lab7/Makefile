@@ -5,3 +5,6 @@ all:
 
 clean:
 	rm -f matrix.o lab7.o lab7 
+
+run: all
+	./lab7

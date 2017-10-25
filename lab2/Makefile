@@ -5,3 +5,6 @@ all:
 
 clean:
 	rm -f lab2 lab2.o revwords.o   # Cleans up 
+
+run: all
+	./lab2

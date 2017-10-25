@@ -5,3 +5,6 @@ all:
 
 clean:
 	rm -f lab5.o graph.o lab5
+
+run: all
+	./lab5
