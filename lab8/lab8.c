@@ -17,7 +17,6 @@ int main(int argc, char **argv) {
   } else { 
     printf("Expected 1 argument\n");
   }
-  system("pause");
   return 0;
 }
 	
