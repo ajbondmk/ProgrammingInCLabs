@@ -10,4 +10,11 @@ clean:
 	rm -f lab10 lab10.o parse.o expr.o 
 
 run: all
+	./lab10 "3"
+	./lab10 "3+4"
+	./lab10 "3+4*5"
+	./lab10 "3+4*5+2"
 	./lab10 "3+4*(5+2)"
+	./lab10 "(3+4)*(5+2)"
+	./lab10 "1 + 2"
+	./lab10 "1-2"

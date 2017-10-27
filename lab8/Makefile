@@ -8,4 +8,11 @@ clean:
 	rm -f lab8 lab8.o parse.o expr.o 
 
 run: all
-	./lab8 "2+3*(4+5)"
+	./lab8 "3"
+	./lab8 "3+4"
+	./lab8 "3+4*5"
+	./lab8 "3+4*5+2"
+	./lab8 "3+4*(5+2)"
+	./lab8 "(3+4)*(5+2)"
+	./lab8 "1 + 2"
+	./lab8 "1-2"
